@@ -1,5 +1,6 @@
 
 name: Gitlab Stats update
+
 permissions: write-all
 
 on:
@@ -12,10 +13,8 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions: write-all
 
-    permissions:
-      issues: write
-      pull-requests: write
     steps:
       - name: Checkout ${{ github.event.repository.name }} repository
         uses: actions/checkout@v2
