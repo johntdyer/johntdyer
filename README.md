@@ -139,7 +139,7 @@
 
 Gitlab Activity:<br/>
 <!--START_SECTION:emo-gitlab-->
-| Month | Contributions | Progress |
+| Month | Contributions | Progress | 
 |-------|---------------|---------------------------|
 |NOV|111|███████████░░░░░░░░░|
 |DEC|47 |█████░░░░░░░░░░░░░░░|
