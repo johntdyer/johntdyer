@@ -51,6 +51,6 @@ jobs:
             git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
             git pull
             git add README.md
-            git commit -m "Updated README with new stats"
+            git commit -m "Updated README with new stats" 2>&1 || true
             git push
         working-directory: ${{ github.event.repository.name }}
