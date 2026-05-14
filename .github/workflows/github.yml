@@ -22,7 +22,7 @@ jobs:
           path: ${{ github.event.repository.name }}
 
       - name: Checkout gitlab-stats repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: 'emochka2007/gitlab-stats'
           token: ${{ secrets.GITHUB_TOKEN }}   # Use a GitHub Secret for the token
