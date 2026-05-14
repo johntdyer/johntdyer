@@ -5,6 +5,7 @@
 
 - 👯 I’m looking to collaborate on **anything open source**
 
+<img src="https://raw.githubusercontent.com/johntdyer/johntdyer/refs/heads/main/images/userstats.svg" alt="github-stats"/>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
