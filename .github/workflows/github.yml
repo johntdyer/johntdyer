@@ -11,13 +11,19 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  stats:
     runs-on: ubuntu-latest
-    permissions: write-all
+    permissions:
+      contents: write
+      
+  # update-readme:
+  #   runs-on: ubuntu-latest
+  #   permissions: write-all
 
     steps:
       - name: Checkout ${{ github.event.repository.name }} repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
+
         with:
           path: ${{ github.event.repository.name }}
 
@@ -54,3 +60,7 @@ jobs:
       #       git commit -m "Updated README with new stats" 2>&1 || true
       #       git push
       #   working-directory: ${{ github.event.repository.name }}
+      - name: Generate the user stats image
+        uses: cicirello/user-statistician@v1
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
