@@ -7,7 +7,7 @@
 
 <img src="https://raw.githubusercontent.com/johntdyer/johntdyer/refs/heads/main/images/userstats.svg" alt="github-stats"/>
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with me: </h3>
 <p align="left">
 </p>
 
@@ -138,7 +138,18 @@
 <!-- </p> -->
 <p align="left">
 
-Gitlab Activity:<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+-------
+
+# Gitlab Activity:
+
+<br/>
+
 <!--START_SECTION:emo-gitlab-->
 | Month | Contributions | Progress | 
 |-------|---------------|---------------------------|
